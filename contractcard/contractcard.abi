@@ -1,0 +1,18 @@
+{
+    "types": [],
+    "structs": [{
+        "name": "record",
+        "fields": {
+          "wins": "UInt64"
+        }
+      }
+      ],
+    "actions": [{
+        "action": "insert",
+        "type": "record"
+      }
+    ],
+    "tables": [
+      {"table":"record","type":"record"}
+    ]
+}
